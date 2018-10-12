@@ -68,7 +68,7 @@ public class EmailController {
 	              "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n" + 
 	              "<title>Weekly Reset Report</title>\n" + 
 	              "<h1 align=\"center\" style=\"color:brown;\" style=\"background-color:powderblue;\"> Weekly Reset Report </h1><br>\n" + 
-	              "<h5 align=\"center\" style=\"color:blue;\" style=\"background-color:powderblue;\"> Reset Values = No Of Reset / Flight Hours</h5><br>\n" + 
+	              "<h5 align=\"center\" style=\"color:#707070\" style=\"background-color:powderblue;\"> * Reset Ratio = No Of Reset / Flight Hours</h5><br>\n" + 
 	              "<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\">\n" + 
 	              "<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js\"></script>\n" + 
 	              "<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\"></script>\n" + 
@@ -112,7 +112,7 @@ public class EmailController {
 	              "    <thead>\n" + 
 	              "      <tr>\n" + 
 	              "        <th>Airlines</th>\n" + 
-	              "        <th>Reset ratio </br> all weeks</th>\n" + 
+	              "        <th>Reset ratio </br> last weeks</th>\n" + 
 	              "        <th>Monday </br> reset ratio </th>\n" + 
 	              "        <th>Tuesday</br> reset ratio </th>\n" + 
 	              "        <th>Wednesday</br> reset ratio </th>\n" + 
@@ -123,10 +123,10 @@ public class EmailController {
 	              "    <tbody>\n" + 
 	              "      <tr>\n" + 
 	              "         <td >DAL</td>\n" + 
-	              "        <td><span class=\"spnDetails\">0.3</span><span class=\"spnTooltip\">\n" + 
-	              "    Current reset - 100<br/>\n" + 
-	              "    Previous week reset -90\n" + 
-	              "    <br/> Flight Hours - 14 </br> Re-set Flight hours - 2\n" + 
+	              "        <td><span class=\"spnDetails\"><a href=\"\">0.3</span><span class=\"spnTooltip\">\n" + 
+	              "    Current reset - 30<br/>\n" + 
+	              "    Previous week reset - 5\n" + 
+	              "    <br/> Flight Hours - 100 \n" + 
 	              "  </span>\n" + 
 	              "</td>\n" + 
 	              "        <td>0.1</td>\n" + 
@@ -137,10 +137,10 @@ public class EmailController {
 	              "      </tr>\n" + 
 	              "      <tr>\n" + 
 	              "         <td>ASA</td>\n" + 
-	              "        <td><span class=\"spnDetails\">0.2</span><span class=\"spnTooltip\">\n" + 
-	              "Current reset - 105<br/>\n" + 
-	              "    Previous week reset -95\n" + 
-	              "    <br/> Flight Hours - 14 </br> Re-set Flight hours - 2\n" + 
+	              "        <td><span class=\"spnDetails\"><a href=\"\">0.2</span><span class=\"spnTooltip\">\n" + 
+	              "Current reset - 2<br/>\n" + 
+	              "    Previous week reset -6\n" + 
+	              "    <br/> Flight Hours - 10 \n" + 
 	              "  </span>\n" + 
 	              "        <td>0.4</td>\n" + 
 	              "        <td>0.3</td>\n" + 
@@ -150,10 +150,10 @@ public class EmailController {
 	              "      </tr>\n" + 
 	              "      <tr>\n" + 
 	              "        <td>AAL</td>\n" + 
-	              "        <td><span class=\"spnDetails\">0.1</span><span class=\"spnTooltip\">\n" + 
-	              "Current reset - 40<br/>\n" + 
-	              "    Previous week reset -20\n" + 
-	              "    <br/> Flight Hours - 14 </br> Re-set Flight hours - 2\n" + 
+	              "        <td><span class=\"spnDetails\"><a href=\"\">0.3</span><span class=\"spnTooltip\">\n" + 
+	              "Current reset - 3 <br/>\n" + 
+	              "    Previous week reset - 4 \n" + 
+	              "    <br/> Flight Hours - 10 \n" + 
 	              "  </span>\n" + 
 	              "        <td>0.4</td>\n" + 
 	              "        <td>0.3</td>\n" + 
