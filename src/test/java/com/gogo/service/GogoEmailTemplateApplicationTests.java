@@ -12,5 +12,8 @@ public class GogoEmailTemplateApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
+	@Test
+	public void contextLoads1() {
+	}
 
 }
